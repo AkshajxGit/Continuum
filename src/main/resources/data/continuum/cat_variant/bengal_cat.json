@@ -1,0 +1,8 @@
+{
+  "asset_id": "continuum:entity/cat/bengal_cat",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

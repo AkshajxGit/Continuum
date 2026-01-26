@@ -1,0 +1,13 @@
+{
+  "asset_id": "continuum:pandemonium",
+  "author": {
+    "color": "gray",
+    "translate": "painting.continuum.pandemonium.author"
+  },
+  "height": 3,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.continuum.pandemonium.title"
+  },
+  "width": 3
+}

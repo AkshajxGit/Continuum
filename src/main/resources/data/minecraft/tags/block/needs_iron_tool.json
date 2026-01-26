@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "continuum:silver_ore",
+    "continuum:deepslate_silver_ore",
+    "continuum:silver_block"
+  ]
+}

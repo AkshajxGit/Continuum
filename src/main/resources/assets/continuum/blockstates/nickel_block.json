@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "continuum:block/nickel_block"
+    }
+  }
+}

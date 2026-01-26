@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "continuum:sulphur",
+    "G": "minecraft:sand",
+    "C": "minecraft:charcoal"
+  },
+  "pattern": [
+    "GSG",
+    "SCS",
+    "GSG"
+  ],
+  "result": {
+    "count": 2,
+    "id": "continuum:blast_charge"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "asset_id": "continuum:foundry",
+  "author": {
+    "color": "gray",
+    "translate": "painting.continuum.foundry.author"
+  },
+  "height": 3,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.continuum.foundry.title"
+  },
+  "width": 4
+}

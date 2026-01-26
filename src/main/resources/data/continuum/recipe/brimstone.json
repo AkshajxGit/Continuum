@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "continuum:sulphur",
+    "minecraft:charcoal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "continuum:brimstone"
+  }
+}

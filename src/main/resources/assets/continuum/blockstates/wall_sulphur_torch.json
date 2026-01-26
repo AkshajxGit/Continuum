@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "continuum:block/wall_sulphur_torch"
+    },
+    "facing=north": {
+      "model": "continuum:block/wall_sulphur_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "continuum:block/wall_sulphur_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "continuum:block/wall_sulphur_torch",
+      "y": 180
+    }
+  }
+}

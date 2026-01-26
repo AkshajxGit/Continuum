@@ -1,0 +1,10 @@
+// 1.21.11	-999999999-01-01T00:00:00	Continuum/
+8cf393a8b1a57b16e5ddcf539b2160f7596e707b data/continuum/trim_material/nickel.json
+160138472034ddb0ced8623eec8df8da4193f58d data/continuum/trim_material/silver.json
+57e61ca29d7a4650e417c4a9199bd6240bb04613 data/continuum/trim_material/sulphur.json
+d6782d47dd40d3742a56f676aeafa9354d50322a data/continuum/worldgen/configured_feature/nickel_ore.json
+d255dbc7551a50702c27b2e9859f223b82330bf9 data/continuum/worldgen/configured_feature/silver_ore.json
+d1ad6a4080620b6f9411fbb0775b0ec06df729c6 data/continuum/worldgen/configured_feature/sulphur_ore.json
+0574f518092611eb844ac1a6e892e2f65f84abd3 data/continuum/worldgen/placed_feature/nickel_ore_placed.json
+0774dbb926d16cb04295d56fa72eb4cfbc52bc45 data/continuum/worldgen/placed_feature/silver_ore_placed.json
+658495354531d99854acffd9dfa73baf2e23a437 data/continuum/worldgen/placed_feature/sulphur_ore_placed.json

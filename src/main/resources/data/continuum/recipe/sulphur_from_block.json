@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "continuum:sulphur_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "continuum:sulphur"
+  }
+}

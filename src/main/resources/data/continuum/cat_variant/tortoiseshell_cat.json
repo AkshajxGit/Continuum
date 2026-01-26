@@ -1,0 +1,8 @@
+{
+  "asset_id": "continuum:entity/cat/tortoiseshell_cat",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

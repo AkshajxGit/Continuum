@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "N": "continuum:nickel",
+    "I": "minecraft:stick"
+  },
+  "pattern": [
+    "NN ",
+    "NI ",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "continuum:nickel_axe"
+  }
+}

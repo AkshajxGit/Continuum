@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "continuum:sulphur_ore",
+    "continuum:deepslate_sulphur_ore",
+    "continuum:sulphur_block",
+    "continuum:nickel_ore",
+    "continuum:deepslate_nickel_ore",
+    "continuum:nickel_block",
+    "continuum:silver_ore",
+    "continuum:deepslate_silver_ore",
+    "continuum:silver_block"
+  ]
+}

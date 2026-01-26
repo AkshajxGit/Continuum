@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "S": "continuum:silver",
+    "I": "minecraft:stick"
+  },
+  "pattern": [
+    "SS ",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "continuum:silver_hoe"
+  }
+}

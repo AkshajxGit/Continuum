@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "continuum:entity/wolf/dune_wolf_angry",
+    "tame": "continuum:entity/wolf/dune_wolf_tame",
+    "wild": "continuum:entity/wolf/dune_wolf"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:desert"
+      },
+      "priority": 1
+    }
+  ]
+}

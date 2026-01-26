@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "nickel",
+  "ingredient": "continuum:nickel_ore",
+  "result": {
+    "id": "continuum:nickel"
+  }
+}

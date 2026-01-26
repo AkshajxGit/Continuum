@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "continuum:entity/wolf/gloom_wolf_angry",
+    "tame": "continuum:entity/wolf/gloom_wolf_tame",
+    "wild": "continuum:entity/wolf/gloom_wolf"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:pale_garden"
+      },
+      "priority": 1
+    }
+  ]
+}

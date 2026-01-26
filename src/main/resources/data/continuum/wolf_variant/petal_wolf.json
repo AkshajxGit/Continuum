@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "continuum:entity/wolf/petal_wolf_angry",
+    "tame": "continuum:entity/wolf/petal_wolf_tame",
+    "wild": "continuum:entity/wolf/petal_wolf"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:cherry_grove"
+      },
+      "priority": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "asset_id": "continuum:heimweg",
+  "author": {
+    "color": "gray",
+    "translate": "painting.continuum.heimweg.author"
+  },
+  "height": 2,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.continuum.heimweg.title"
+  },
+  "width": 3
+}

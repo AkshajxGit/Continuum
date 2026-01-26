@@ -1,0 +1,24 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "continuum:nickel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "continuum:nickel"
+      }
+    ],
+    "horse_body": [
+      {
+        "texture": "continuum:nickel"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "texture": "continuum:nickel"
+      }
+    ]
+  }
+}

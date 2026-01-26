@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "continuum:entity/wolf/rock_wolf_angry",
+    "tame": "continuum:entity/wolf/rock_wolf_tame",
+    "wild": "continuum:entity/wolf/rock_wolf"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:jagged_peaks"
+      },
+      "priority": 1
+    }
+  ]
+}

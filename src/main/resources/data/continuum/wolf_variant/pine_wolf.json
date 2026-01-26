@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "continuum:entity/wolf/pine_wolf_angry",
+    "tame": "continuum:entity/wolf/pine_wolf_tame",
+    "wild": "continuum:entity/wolf/pine_wolf"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:old_growth_pine_taiga"
+      },
+      "priority": 1
+    }
+  ]
+}
