@@ -1,13 +1,13 @@
 {
-  "asset_id": "minecraft:bomb",
+  "asset_id": "continuum:bridge",
   "author": {
     "color": "gray",
-    "translate": "painting.minecraft.bomb.author"
+    "translate": "painting.continuum.bridge.author"
   },
   "height": 4,
   "title": {
     "color": "yellow",
-    "translate": "painting.minecraft.bomb.title"
+    "translate": "painting.continuum.bridge.title"
   },
   "width": 3
 }

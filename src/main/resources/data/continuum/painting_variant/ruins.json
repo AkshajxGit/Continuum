@@ -1,13 +1,13 @@
 {
-  "asset_id": "minecraft:bomb",
+  "asset_id": "continuum:ruins",
   "author": {
     "color": "gray",
-    "translate": "painting.minecraft.bomb.author"
+    "translate": "painting.continuum.ruins.author"
   },
   "height": 3,
   "title": {
     "color": "yellow",
-    "translate": "painting.minecraft.bomb.title"
+    "translate": "painting.continuum.ruins.title"
   },
   "width": 4
 }

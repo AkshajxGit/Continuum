@@ -1,13 +1,13 @@
 {
-  "asset_id": "minecraft:bomb",
+  "asset_id": "continuum:road",
   "author": {
     "color": "gray",
-    "translate": "painting.minecraft.bomb.author"
+    "translate": "painting.continuum.road.author"
   },
   "height": 2,
   "title": {
     "color": "yellow",
-    "translate": "painting.minecraft.bomb.title"
+    "translate": "painting.continuum.road.title"
   },
   "width": 3
 }

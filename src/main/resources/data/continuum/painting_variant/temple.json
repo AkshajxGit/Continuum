@@ -1,0 +1,13 @@
+{
+  "asset_id": "continuum:temple",
+  "author": {
+    "color": "gray",
+    "translate": "painting.continuum.temple.author"
+  },
+  "height": 2,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.continuum.temple.title"
+  },
+  "width": 2
+}
