@@ -90,5 +90,11 @@
   "advancements.continuum.silver.description": "A refined metal with countless uses.",
   "advancements.continuum.silver.title": "Shining Discovery",
   "advancements.continuum.armor.description": "This armor gives some protection.",
-  "advancements.continuum.armor.title": "Resilient Armor"
+  "advancements.continuum.armor.title": "Resilient Armor",
+  "advancements.continuum.blast.charge.description": "Not all explosives are lit.",
+  "advancements.continuum.blast.charge.title": "Controlled Explosives",
+  "advancements.continuum.wolf.description": "A new kind of wolf.",
+  "advancements.continuum.wolf.title": "A new wolf?",
+  "advancements.continuum.tomahawk.description": "A throwable Weapon?",
+  "advancements.continuum.tomahawk.title": "A throwable axe"
 }

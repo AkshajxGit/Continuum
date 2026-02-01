@@ -1,0 +1,33 @@
+{
+  "parent": "continuum:main/sulphur",
+  "criteria": {
+    "blast_charge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:blast_charge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.blast.charge.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:blast_charge"
+    },
+    "title": {
+      "translate": "advancements.continuum.blast.charge.title"
+    }
+  },
+  "requirements": [
+    [
+      "blast_charge"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

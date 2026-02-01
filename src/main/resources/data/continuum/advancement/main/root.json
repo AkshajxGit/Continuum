@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "description": {
+      "translate": "advancements.continuum.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:sulphur"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.continuum.root.title"
+    }
+  }
+}

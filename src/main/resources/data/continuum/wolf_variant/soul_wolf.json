@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "continuum:entity/wolf/soul_wolf_angry",
+    "tame": "continuum:entity/wolf/soul_wolf_tame",
+    "wild": "continuum:entity/wolf/soul_wolf"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:soul_sand_valley"
+      },
+      "priority": 10
+    }
+  ]
+}

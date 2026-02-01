@@ -1,0 +1,40 @@
+{
+  "parent": "continuum:main/root",
+  "criteria": {
+    "tamed_custom_variant": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:wolf",
+                "variant": "continuum:petal_wolf"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.wolf.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.continuum.wolf.title"
+    }
+  },
+  "requirements": [
+    [
+      "tamed_custom_variant"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

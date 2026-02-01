@@ -1,0 +1,33 @@
+{
+  "parent": "continuum:main/root",
+  "criteria": {
+    "sulphur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:raw_sulphur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.sulphur.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:raw_sulphur"
+    },
+    "title": {
+      "translate": "advancements.continuum.sulphur.title"
+    }
+  },
+  "requirements": [
+    [
+      "sulphur"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

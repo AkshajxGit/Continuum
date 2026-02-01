@@ -1,0 +1,12 @@
+{
+  "asset_id": "continuum:entity/cat/soul_cat",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:soul_sand_valley"
+      },
+      "priority": 10
+    }
+  ]
+}

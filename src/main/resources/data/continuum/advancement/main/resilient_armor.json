@@ -1,0 +1,110 @@
+{
+  "parent": "continuum:main/root",
+  "criteria": {
+    "nickel_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:nickel_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "nickel_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:nickel_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "nickel_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:nickel_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "nickel_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:nickel_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "silver_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:silver_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "silver_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:silver_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "silver_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:silver_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "silver_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:silver_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.armor.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:silver_chestplate"
+    },
+    "title": {
+      "translate": "advancements.continuum.armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "nickel_helmet",
+      "nickel_chestplate",
+      "nickel_leggings",
+      "nickel_boots",
+      "silver_helmet",
+      "silver_chestplate",
+      "silver_leggings",
+      "silver_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

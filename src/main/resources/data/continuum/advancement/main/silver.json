@@ -1,0 +1,33 @@
+{
+  "parent": "continuum:main/root",
+  "criteria": {
+    "silver": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:raw_silver"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.silver.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:silver"
+    },
+    "title": {
+      "translate": "advancements.continuum.silver.title"
+    }
+  },
+  "requirements": [
+    [
+      "silver"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "continuum:main/root",
+  "criteria": {
+    "nickel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:raw_nickel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.nickel.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:nickel"
+    },
+    "title": {
+      "translate": "advancements.continuum.nickel.title"
+    }
+  },
+  "requirements": [
+    [
+      "nickel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

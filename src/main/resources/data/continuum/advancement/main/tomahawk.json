@@ -1,0 +1,33 @@
+{
+  "parent": "continuum:main/nickel",
+  "criteria": {
+    "tomahawk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:tomahawk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.tomahawk.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:tomahawk"
+    },
+    "title": {
+      "translate": "advancements.continuum.tomahawk.title"
+    }
+  },
+  "requirements": [
+    [
+      "tomahawk"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
