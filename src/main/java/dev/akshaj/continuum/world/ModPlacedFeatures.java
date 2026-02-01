@@ -17,6 +17,7 @@ public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> SILVER_ORE_PLACED_KEY = registerKey("silver_ore_placed");
     public static final RegistryKey<PlacedFeature> SULPHUR_ORE_PLACED_KEY = registerKey("sulphur_ore_placed");
+    public static final RegistryKey<PlacedFeature> BASALT_SULPHUR_ORE_PLACED_KEY = registerKey("basalt_sulphur_ore_placed");
     public static final RegistryKey<PlacedFeature> NICKEL_ORE_PLACED_KEY = registerKey("nickel_ore_placed");
 
 
@@ -30,6 +31,10 @@ public class ModPlacedFeatures {
         register(context, SULPHUR_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SULPHUR_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-64), YOffset.fixed(48))));
+
+        register(context, BASALT_SULPHUR_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BASALT_SULPHUR_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(4,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(32), YOffset.fixed(72))));
 
         register(context, NICKEL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NICKEL_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(9,

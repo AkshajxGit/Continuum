@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "continuum:silver"
+  ],
+  "result": {
+    "count": 9,
+    "id": "continuum:silver_nugget"
+  }
+}

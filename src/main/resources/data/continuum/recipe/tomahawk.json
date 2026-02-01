@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "N": "continuum:nickel",
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "NIN",
+    "ISI",
+    " S "
+  ],
+  "result": {
+    "count": 2,
+    "id": "continuum:tomahawk"
+  }
+}

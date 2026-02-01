@@ -3,6 +3,7 @@ package dev.akshaj.continuum.item;
 import dev.akshaj.continuum.Continuum;
 import dev.akshaj.continuum.block.ModBlocks;
 import dev.akshaj.continuum.item.custom.BlastChargeItem;
+import dev.akshaj.continuum.item.custom.TomahawkItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -23,6 +24,7 @@ public class ModItems {
 
     public static final Item RAW_NICKEL = registerItem("raw_nickel", Item::new);
     public static final Item NICKEL = registerItem("nickel", Item::new);
+    public static final Item NICKEL_NUGGET = registerItem("nickel_nugget", Item::new);
     public static final Item NICKEL_HELMET = registerItem("nickel_helmet", setting -> new Item(setting.armor(ModArmorMaterials.NICKEL_ARMOR_MATERIAL, EquipmentType.HELMET)));
     public static final Item NICKEL_CHESTPLATE = registerItem("nickel_chestplate", setting -> new Item(setting.armor(ModArmorMaterials.NICKEL_ARMOR_MATERIAL, EquipmentType.CHESTPLATE)));
     public static final Item NICKEL_LEGGINGS = registerItem("nickel_leggings", setting -> new Item(setting.armor(ModArmorMaterials.NICKEL_ARMOR_MATERIAL, EquipmentType.LEGGINGS)));
@@ -38,6 +40,7 @@ public class ModItems {
 
     public static final Item RAW_SILVER = registerItem("raw_silver", Item::new);
     public static final Item SILVER = registerItem("silver", Item::new);
+    public static final Item SILVER_NUGGET = registerItem("silver_nugget", Item::new);
     public static final Item SILVER_HELMET = registerItem("silver_helmet", setting -> new Item(setting.armor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, EquipmentType.HELMET)));
     public static final Item SILVER_CHESTPLATE = registerItem("silver_chestplate", setting -> new Item(setting.armor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, EquipmentType.CHESTPLATE)));
     public static final Item SILVER_LEGGINGS = registerItem("silver_leggings", setting -> new Item(setting.armor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, EquipmentType.LEGGINGS)));
@@ -54,6 +57,8 @@ public class ModItems {
     public static final Item BLAST_CHARGE = registerItem("blast_charge", setting -> new BlastChargeItem(setting.maxCount(16)));
     public static final Item SULPHUR_TORCH = registerItem("sulphur_torch", setting -> new VerticallyAttachableBlockItem(ModBlocks.SULPHUR_TORCH, ModBlocks.WALL_SULPHUR_TORCH, Direction.DOWN, setting));
 
+    public static final Item TOMAHAWK = registerItem("tomahawk", setting -> new TomahawkItem(setting.maxCount(16)));
+
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Continuum.MOD_ID, name),
                 function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Continuum.MOD_ID, name)))));
@@ -69,6 +74,7 @@ public class ModItems {
         entries.add(SULPHUR);
         entries.add(RAW_NICKEL);
         entries.add(NICKEL);
+        entries.add(NICKEL_NUGGET);
         entries.add(NICKEL_HELMET);
         entries.add(NICKEL_CHESTPLATE);
         entries.add(NICKEL_LEGGINGS);
@@ -83,6 +89,7 @@ public class ModItems {
         entries.add(NICKEL_SPEAR);
         entries.add(RAW_SILVER);
         entries.add(SILVER);
+        entries.add(SILVER_NUGGET);
         entries.add(SILVER_HELMET);
         entries.add(SILVER_CHESTPLATE);
         entries.add(SILVER_LEGGINGS);
@@ -99,5 +106,6 @@ public class ModItems {
         entries.add(BRIMSTONE);
         entries.add(BLAST_CHARGE);
         entries.add(SULPHUR_TORCH);
+        entries.add(TOMAHAWK);
     }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "group": "nickel",
+  "ingredient": "continuum:nickel_chestplate",
+  "result": {
+    "id": "continuum:nickel_nugget"
+  }
+}

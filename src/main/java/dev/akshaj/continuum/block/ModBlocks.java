@@ -15,6 +15,8 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.block.ChainBlock;
+import net.minecraft.block.PaneBlock;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
@@ -36,6 +38,14 @@ public class ModBlocks {
 			"deepslate_sulphur_ore",
 			Block::new,
 			AbstractBlock.Settings.copy(Blocks.DEEPSLATE_IRON_ORE),
+			true
+	);
+
+	public static final Block BASALT_SULPHUR_ORE = register(
+			"basalt_sulphur_ore",
+			Block::new,
+			AbstractBlock.Settings.copy(Blocks.IRON_ORE)
+					.sounds(BlockSoundGroup.BASALT),
 			true
 	);
 
@@ -67,6 +77,22 @@ public class ModBlocks {
 			AbstractBlock.Settings.copy(Blocks.DEEPSLATE_DIAMOND_ORE),
 			true
 	);
+
+	public static final Block NICKEL_CHAIN = register(
+			"nickel_chain",
+			ChainBlock::new,
+			AbstractBlock.Settings.copy(Blocks.IRON_CHAIN)
+					.nonOpaque(),
+			true
+	);
+
+    public static final Block NICKEL_BARS = register(
+            "nickel_bars",
+            PaneBlock::new,
+            AbstractBlock.Settings.copy(Blocks.IRON_BARS)
+					.nonOpaque(),
+            true
+    );
 
 	public static final Block SILVER_ORE = register(
 			"silver_ore",
@@ -155,6 +181,9 @@ public class ModBlocks {
 			itemGroup.add(ModBlocks.DEEPSLATE_SILVER_ORE.asItem());
 			itemGroup.add(ModBlocks.SILVER_BLOCK.asItem());
 			itemGroup.add(ModBlocks.SULPHUR_TORCH.asItem());
+			itemGroup.add(ModBlocks.BASALT_SULPHUR_ORE.asItem());
+			itemGroup.add(ModBlocks.NICKEL_CHAIN.asItem());
+			itemGroup.add(ModBlocks.NICKEL_BARS.asItem());
 		});
 		// :::6
 
