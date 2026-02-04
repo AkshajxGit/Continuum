@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "continuum:medium_weighted_pressure_plate",
+    "continuum:ultralight_weighted_pressure_plate"
+  ]
+}

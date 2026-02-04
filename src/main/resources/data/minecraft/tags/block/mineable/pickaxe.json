@@ -10,6 +10,14 @@
     "continuum:nickel_block",
     "continuum:silver_ore",
     "continuum:deepslate_silver_ore",
-    "continuum:silver_block"
+    "continuum:silver_block",
+    "continuum:nickel_bars",
+    "continuum:nickel_chain",
+    "continuum:nickel_door",
+    "continuum:nickel_trapdoor",
+    "continuum:medium_weighted_pressure_plate",
+    "continuum:ultralight_weighted_pressure_plate",
+    "continuum:raw_silver_block",
+    "continuum:raw_nickel_block"
   ]
 }

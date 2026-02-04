@@ -1,0 +1,44 @@
+{
+  "parent": "continuum:main/silver",
+  "criteria": {
+    "silver_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:silver_apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "enchanted_silver_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:enchanted_silver_apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.refined.taste.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:silver_apple"
+    },
+    "title": {
+      "translate": "advancements.continuum.refined.taste.title"
+    }
+  },
+  "requirements": [
+    [
+      "silver_apple",
+      "enchanted_silver_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

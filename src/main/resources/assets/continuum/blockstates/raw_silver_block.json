@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "continuum:block/raw_silver_block"
+    }
+  }
+}

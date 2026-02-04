@@ -17,6 +17,6 @@ public class ModParticles {
     }
 
     public static void registerParticles() {
-        Continuum.LOGGER.info("Registering Particles for Continuum! " + Continuum.MOD_ID);
+        Continuum.LOGGER.info("Registering Particles for Continuum!");
     }
 }

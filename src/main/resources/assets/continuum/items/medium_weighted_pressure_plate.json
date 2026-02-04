@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "continuum:block/medium_weighted_pressure_plate"
+  }
+}

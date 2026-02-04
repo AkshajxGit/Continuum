@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model":"continuum:item/blast_charge"
+    "model": "continuum:item/blast_charge"
   }
 }

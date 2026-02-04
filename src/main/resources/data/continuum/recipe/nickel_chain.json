@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "continuum:nickel",
+    "N": "continuum:nickel_nugget"
+  },
+  "pattern": [
+    "S",
+    "N",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "continuum:nickel_chain"
+  }
+}

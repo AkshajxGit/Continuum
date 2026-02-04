@@ -1,10 +1,12 @@
 package dev.akshaj.continuum;
 
 import dev.akshaj.continuum.entity.ModEntities;
+import dev.akshaj.continuum.item.ModItemGroups;
 import dev.akshaj.continuum.item.ModItems;
 import dev.akshaj.continuum.block.ModBlocks;
 import dev.akshaj.continuum.particle.ModParticles;
 import dev.akshaj.continuum.trim.ModTrimMaterials;
+import dev.akshaj.continuum.util.ModLootTableModifiers;
 import dev.akshaj.continuum.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.particle.v1.FabricParticleTypes;
@@ -33,6 +35,8 @@ public class Continuum implements ModInitializer {
 		ModEntities.registerEntities();
 		ModParticles.registerParticles();
 		ModWorldGeneration.generateModWorldGen();
+		ModItemGroups.registerItemGroups();
+		ModLootTableModifiers.modifyLootTables();
 		LOGGER.info("Continuum by Akshaj, Initialized!");
 	}
 }

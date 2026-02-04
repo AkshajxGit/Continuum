@@ -1,0 +1,92 @@
+{
+  "nickel_break1": {
+    "subtitle": "sounds.continuum.nickel_break1",
+    "sounds": [
+      "continuum:nickel/break1"
+    ]
+  },
+  "nickel_break2": {
+    "subtitle": "sounds.continuum.nickel_break2",
+    "sounds": [
+      "continuum:nickel/break2"
+    ]
+  },
+  "nickel_break3": {
+    "subtitle": "sounds.continuum.nickel_break3",
+    "sounds": [
+      "continuum:nickel/break3"
+    ]
+  },
+  "nickel_break4": {
+    "subtitle": "sounds.continuum.nickel_break4",
+    "sounds": [
+      "continuum:nickel/break4"
+    ]
+  },
+  "nickel_step1": {
+    "subtitle": "sounds.continuum.nickel_step1",
+    "sounds": [
+      "continuum:nickel_step1"
+    ]
+  },
+  "silver_break1": {
+    "subtitle": "sounds.continuum.silver_break1",
+    "sounds": [
+      "continuum:silver/break1"
+    ]
+  },
+  "silver_break2": {
+    "subtitle": "sounds.continuum.silver_break2",
+    "sounds": [
+      "continuum:silver/break2"
+    ]
+  },
+  "silver_break3": {
+    "subtitle": "sounds.continuum.silver_break3",
+    "sounds": [
+      "continuum:silver/break3"
+    ]
+  },
+  "silver_break4": {
+    "subtitle": "sounds.continuum.silver_break4",
+    "sounds": [
+      "continuum:silver/break4"
+    ]
+  },
+  "silver_step1": {
+    "subtitle": "sounds.continuum.silver_step1",
+    "sounds": [
+      "continuum:nickel/step1"
+    ]
+  },
+  "sulphur_break1": {
+    "subtitle": "sounds.continuum.sulphur_break1",
+    "sounds": [
+      "continuum:sulphur/break1"
+    ]
+  },
+  "sulphur_break2": {
+    "subtitle": "sounds.continuum.sulphur_break2",
+    "sounds": [
+      "continuum:sulphur/break2"
+    ]
+  },
+  "sulphur_break3": {
+    "subtitle": "sounds.continuum.sulphur_break3",
+    "sounds": [
+      "continuum:sulphur/break3"
+    ]
+  },
+  "sulphur_break4": {
+    "subtitle": "sounds.continuum.sulphur_break4",
+    "sounds": [
+      "continuum:sulphur/break4"
+    ]
+  },
+  "sulphur_step1": {
+    "subtitle": "sounds.continuum.sulphur_step1",
+    "sounds": [
+      "continuum:sulphur/step1"
+    ]
+  }
+}

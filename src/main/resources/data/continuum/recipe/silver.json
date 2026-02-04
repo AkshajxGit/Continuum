@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "S": "continuum:silver"
+    "S": "continuum:silver_nugget"
   },
   "pattern": [
     "SSS",

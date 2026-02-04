@@ -8,6 +8,11 @@
     "continuum:basalt_sulphur_ore",
     "continuum:nickel_ore",
     "continuum:deepslate_nickel_ore",
-    "continuum:nickel_block"
+    "continuum:nickel_block",
+    "continuum:nickel_bars",
+    "continuum:nickel_chain",
+    "continuum:nickel_door",
+    "continuum:nickel_trapdoor",
+    "continuum:raw_nickel_block"
   ]
 }

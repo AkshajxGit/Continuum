@@ -1,0 +1,33 @@
+{
+  "parent": "continuum:main/nickel",
+  "criteria": {
+    "nickel_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "continuum:nickel_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.continuum.nickel_door.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "continuum:nickel_door"
+    },
+    "title": {
+      "translate": "advancements.continuum.nickel_door.title"
+    }
+  },
+  "requirements": [
+    [
+      "nickel_door"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

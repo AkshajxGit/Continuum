@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "continuum:nickel"
+  ],
+  "result": {
+    "count": 1,
+    "id": "continuum:nickel_button"
+  }
+}

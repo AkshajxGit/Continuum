@@ -3,6 +3,7 @@
   "values": [
     "continuum:silver_ore",
     "continuum:deepslate_silver_ore",
-    "continuum:silver_block"
+    "continuum:silver_block",
+    "continuum:raw_silver_block"
   ]
 }

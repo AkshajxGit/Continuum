@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "continuum:nickel"
+  },
+  "pattern": [
+    "SS",
+    "SS",
+    "SS"
+  ],
+  "result": {
+    "count": 3,
+    "id": "continuum:nickel_door"
+  }
+}

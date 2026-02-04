@@ -35,6 +35,6 @@ public class ModEntities {
                     .dimensions(0.5f, 1.15f).build(TOMAHAWK_KEY));
 
     public static void registerEntities() {
-        Continuum.LOGGER.info("Registering Entities for Continuum");
+        Continuum.LOGGER.info("Registering Entities for Continuum!");
     }
 }

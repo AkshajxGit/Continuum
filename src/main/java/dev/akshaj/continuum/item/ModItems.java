@@ -2,10 +2,12 @@ package dev.akshaj.continuum.item;
 
 import dev.akshaj.continuum.Continuum;
 import dev.akshaj.continuum.block.ModBlocks;
+import dev.akshaj.continuum.item.ModFoodComponents;
 import dev.akshaj.continuum.item.custom.BlastChargeItem;
 import dev.akshaj.continuum.item.custom.TomahawkItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.item.*;
 import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.Registries;
@@ -13,6 +15,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.math.Direction;
 
 import java.util.function.Function;
@@ -41,6 +44,8 @@ public class ModItems {
     public static final Item RAW_SILVER = registerItem("raw_silver", Item::new);
     public static final Item SILVER = registerItem("silver", Item::new);
     public static final Item SILVER_NUGGET = registerItem("silver_nugget", Item::new);
+    public static final Item SILVER_APPLE = registerItem("silver_apple", setting -> new Item(setting .food(ModFoodComponents.SILVER_APPLE, ModFoodComponents.SILVER_APPLE_EFFECT)));
+    public static final Item ENCHANTED_SILVER_APPLE = registerItem("enchanted_silver_apple", setting -> new Item(setting .food(ModFoodComponents.ENCHANTED_SILVER_APPLE, ModFoodComponents.ENCHANTED_SILVER_APPLE_EFFECT).rarity(Rarity.RARE).component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)));
     public static final Item SILVER_HELMET = registerItem("silver_helmet", setting -> new Item(setting.armor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, EquipmentType.HELMET)));
     public static final Item SILVER_CHESTPLATE = registerItem("silver_chestplate", setting -> new Item(setting.armor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, EquipmentType.CHESTPLATE)));
     public static final Item SILVER_LEGGINGS = registerItem("silver_leggings", setting -> new Item(setting.armor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, EquipmentType.LEGGINGS)));
@@ -66,7 +71,7 @@ public class ModItems {
 
     public static void registerModItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::customIngredients);
-        Continuum.LOGGER.info("Registering Items for " + Continuum.MOD_ID);
+        Continuum.LOGGER.info("Registering Items for Continuum!");
     }
 
     private static void customIngredients(FabricItemGroupEntries entries) {
@@ -89,6 +94,8 @@ public class ModItems {
         entries.add(NICKEL_SPEAR);
         entries.add(RAW_SILVER);
         entries.add(SILVER);
+        entries.add(SILVER_APPLE);
+        entries.add(ENCHANTED_SILVER_APPLE);
         entries.add(SILVER_NUGGET);
         entries.add(SILVER_HELMET);
         entries.add(SILVER_CHESTPLATE);
@@ -102,7 +109,6 @@ public class ModItems {
         entries.add(SILVER_SHOVEL);
         entries.add(SILVER_HOE);
         entries.add(SILVER_SPEAR);
-        entries.add(SILVER_BOOTS);
         entries.add(BRIMSTONE);
         entries.add(BLAST_CHARGE);
         entries.add(SULPHUR_TORCH);

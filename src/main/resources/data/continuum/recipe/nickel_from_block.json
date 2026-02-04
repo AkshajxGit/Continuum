@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "continuum:silver_block"
+    "continuum:nickel_block"
   ],
   "result": {
     "count": 9,

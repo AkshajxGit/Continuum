@@ -21,13 +21,13 @@ public class ContinuumClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        // This line tells the game: "When the BLAST_CHARGE entity spawns,
-        // render it as a flying item (like a snowball or egg)."
         EntityRendererRegistryImpl.register(ModEntities.BLAST_CHARGE, FlyingItemEntityRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(TomahawkProjectileModel.TOMAHAWK, TomahawkProjectileModel::getTexturedModelData);
         EntityRendererRegistryImpl.register(ModEntities.TOMAHAWK, TomahawkProjectileRenderer::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.SULPHUR_FLAME_PARTICLE, SulphurFlameParticle.Factory::new);
         BlockRenderLayerMap.putBlock(ModBlocks.NICKEL_CHAIN, BlockRenderLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(ModBlocks.NICKEL_BARS, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(ModBlocks.NICKEL_DOOR, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(ModBlocks.NICKEL_TRAPDOOR, BlockRenderLayer.CUTOUT);
     }
 }

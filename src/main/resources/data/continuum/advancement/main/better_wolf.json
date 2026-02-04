@@ -1,22 +1,131 @@
 {
   "parent": "continuum:main/root",
   "criteria": {
-    "tamed_custom_variant": {
-      "trigger": "minecraft:tame_animal",
+    "petal_wolf": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:wolf",
-                "variant": "continuum:petal_wolf"
-              }
+              "type": "minecraft:wolf",
+              "variant": "continuum:petal_wolf"
             }
           }
-        ]
-      }
+        ],
+        "item": {
+          "items": "minecraft:bone"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "gloom_wolf": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "variant": "continuum:gloom_wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bone"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "dune_wolf": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "variant": "continuum:dune_wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bone"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "pine_wolf": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "variant": "continuum:pine_wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bone"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "shade_wolf": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "variant": "continuum:shade_wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bone"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "rock_wolf": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "variant": "continuum:rock_wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bone"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "soul_wolf": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "variant": "continuum:soul_wolf"
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:bone"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
     }
   },
   "display": {
@@ -33,7 +142,13 @@
   },
   "requirements": [
     [
-      "tamed_custom_variant"
+      "petal_wolf",
+      "gloom_wolf",
+      "pine_wolf",
+      "dune_wolf",
+      "soul_wolf",
+      "rock_wolf",
+      "shade_wolf"
     ]
   ],
   "sends_telemetry_event": true
